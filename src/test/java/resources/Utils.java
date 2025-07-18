@@ -16,7 +16,6 @@ import io.restassured.specification.RequestSpecification;
 public class Utils 
 {
 	RequestSpecification req;
-	Response authorizeResponse ;
 	public RequestSpecification requestSpecification() throws IOException
 	{
 		PrintStream log = new PrintStream(new FileOutputStream("logging.txt"));

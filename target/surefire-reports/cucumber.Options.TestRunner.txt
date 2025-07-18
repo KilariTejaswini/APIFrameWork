@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: cucumber.Options.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.691 s <<< FAILURE! -- in cucumber.Options.TestRunner
+Validating Authorize APIs.Verify getToken is successfull using authCode -- Time elapsed: 0.643 s <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[SUCCESS]> but was:<[FAILURE]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at stepDefinations.StepDefinition.the_in_response_body_is(StepDefinition.java:72)
+	at ✽.The "status" in response body is "SUCCESS"(file:///C:/Users/tejaswini.kilari/workspace/APIFrameWork/src/test/java/features/placeValidations.feature:18)
+

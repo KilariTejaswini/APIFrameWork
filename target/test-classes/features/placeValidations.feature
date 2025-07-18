@@ -7,15 +7,12 @@ Scenario Outline: Verify authorization is Successfully added using authCode
     Then The API call got success with status code 200
     And The "status" in response body is "SUCCESS"
     And Capture the authCode from response
-    
-Examples: 
-      | partnerId | secretCode     |
-      | jokaroom  |mVfbZCu3rh3uw7d |     
+       
       
       
 @GetToken 
 Scenario: Verify getToken is successfull using authCode
-      Given Add getToken payload using "<partnerId>" 
+      Given Add getToken payload with "<authCode>" "<partnerId>"
       When User calls "GetTokenAPI" with "POST" http request
       Then The API call got success with status code 200
       And The "status" in response body is "SUCCESS" 

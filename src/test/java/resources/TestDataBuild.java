@@ -10,11 +10,11 @@ public class TestDataBuild
 {
 	  String authCode;  
 	    
-	public AuthorizeRequest authorizePayLoad(String partnerId, String secretCode)
+	public AuthorizeRequest  authorizePayLoad(String partnerId, String secretCode)
 	{
 		ClientDetails clientDetails = new ClientDetails();
-		   clientDetails.setPartnerId("jokaroom");
-		   clientDetails.setSecretCode("mVfbZCu3rh3uw7d");
+		   clientDetails.setPartnerId(partnerId);
+		   clientDetails.setSecretCode(secretCode);
 		
 		
 		   AuthorizeRequest authorizeRequest = new AuthorizeRequest();
@@ -23,11 +23,14 @@ public class TestDataBuild
 		   
 		   return authorizeRequest;
 	}
+
 	
-	public GetTokenRequest getTokenPayLoad(String partnerId)
+	
+	
+	public GetTokenRequest getTokenPayLoad(String authCode, String partnerId)
 	{
 		ClientDetails clientDetails = new ClientDetails();
-		clientDetails.setPartnerId("jokaroom");
+		clientDetails.setPartnerId(partnerId);
 
 		   
 		
@@ -39,6 +42,7 @@ public class TestDataBuild
 		return tokenRequest;
 		
 		}
+		
 		
 	
 

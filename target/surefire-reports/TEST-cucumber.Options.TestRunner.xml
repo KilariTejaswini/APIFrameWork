@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="cucumber.Options.TestRunner" time="4.691" tests="2" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\tejaswini.kilari\workspace\APIFrameWork\target\test-classes;C:\Users\tejaswini.kilari\workspace\APIFrameWork\target\classes;C:\Users\tejaswini.kilari\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\tejaswini.kilari\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\tejaswini.kilari\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\tejaswini.kilari\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\tejaswini.kilari\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\tejaswini.kilari\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\tejaswini.kilari\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\tejaswini.kilari\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\tejaswini.kilari\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\tejaswini.kilari\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\tejaswini.kilari\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\tejaswini.kilari\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\tejaswini.kilari\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\tejaswini.kilari\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\tejaswini.kilari\.m2\repository\io\cucumber\cucumber-java\7.16.1\cucumber-java-7.16.1.jar;C:\Users\tejaswini.kilari\.m2\repository\io\cucumber\cucumber-core\7.16.1\cucumber-core-7.16.1.jar;C:\Users\tejaswini.kilari\.m2\repository\io\cucumber\cucumber-gherkin\7.16.1\cucumber-gherkin-7.16.1.jar;C:\Users\tejaswini.kilari\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.16.1\cucumber-gherkin-messages-7.16.1.jar;C:\Users\tejaswini.kilari\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\tejaswini.kilari\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\tejaswini.kilari\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\tejaswini.kilari\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\tejaswini.kilari\.m2\repository\io\cucumber\datatable\7.16.1\datatable-7.16.1.jar;C:\Users\tejaswini.kilari\.m2\repository\io\cucumber\cucumber-plugin\7.16.1\cucumber-plugin-7.16.1.jar;C:\Users\tejaswini.kilari\.m2\repository\io\cucumber\docstring\7.16.1\docstring-7.16.1.jar;C:\Users\tejaswini.kilari\.m2\repository\io\cucumber\html-formatter\21.3.0\html-formatter-21.3.0.jar;C:\Users\tejaswini.kilari\.m2\repository\io\cucumber\junit-xml-formatter\0.3.0\junit-xml-formatter-0.3.0.jar;C:\Users\tejaswini.kilari\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\tejaswini.kilari\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\tejaswini.kilari\.m2\repository\io\cucumber\cucumber-junit\7.16.1\cucumber-junit-7.16.1.jar;C:\Users\tejaswini.kilari\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.1\jackson-databind-2.17.1.jar;C:\Users\tejaswini.kilari\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.1\jackson-annotations-2.17.1.jar;C:\Users\tejaswini.kilari\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.1\jackson-core-2.17.1.jar;C:\Users\tejaswini.kilari\.m2\repository\org\codehaus\groovy\groovy\3.0.25\groovy-3.0.25.jar;C:\Users\tejaswini.kilari\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\tejaswini.kilari\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\tejaswini.kilari\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\tejaswini.kilari\AppData\Local\Temp\surefire3191036861355130946\surefirebooter-20250718115907461_3.jar C:\Users\tejaswini.kilari\AppData\Local\Temp\surefire3191036861355130946 2025-07-18T11-59-07_278-jvmRun1 surefire-20250718115907461_1tmp surefire_0-20250718115907461_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\tejaswini.kilari\workspace\APIFrameWork\target\test-classes;C:\Users\tejaswini.kilari\workspace\APIFrameWork\target\classes;C:\Users\tejaswini.kilari\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\tejaswini.kilari\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\tejaswini.kilari\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\tejaswini.kilari\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\tejaswini.kilari\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\tejaswini.kilari\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\tejaswini.kilari\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\tejaswini.kilari\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\tejaswini.kilari\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\tejaswini.kilari\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\tejaswini.kilari\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\tejaswini.kilari\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\tejaswini.kilari\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\tejaswini.kilari\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\tejaswini.kilari\.m2\repository\io\cucumber\cucumber-java\7.16.1\cucumber-java-7.16.1.jar;C:\Users\tejaswini.kilari\.m2\repository\io\cucumber\cucumber-core\7.16.1\cucumber-core-7.16.1.jar;C:\Users\tejaswini.kilari\.m2\repository\io\cucumber\cucumber-gherkin\7.16.1\cucumber-gherkin-7.16.1.jar;C:\Users\tejaswini.kilari\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.16.1\cucumber-gherkin-messages-7.16.1.jar;C:\Users\tejaswini.kilari\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\tejaswini.kilari\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\tejaswini.kilari\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\tejaswini.kilari\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\tejaswini.kilari\.m2\repository\io\cucumber\datatable\7.16.1\datatable-7.16.1.jar;C:\Users\tejaswini.kilari\.m2\repository\io\cucumber\cucumber-plugin\7.16.1\cucumber-plugin-7.16.1.jar;C:\Users\tejaswini.kilari\.m2\repository\io\cucumber\docstring\7.16.1\docstring-7.16.1.jar;C:\Users\tejaswini.kilari\.m2\repository\io\cucumber\html-formatter\21.3.0\html-formatter-21.3.0.jar;C:\Users\tejaswini.kilari\.m2\repository\io\cucumber\junit-xml-formatter\0.3.0\junit-xml-formatter-0.3.0.jar;C:\Users\tejaswini.kilari\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\tejaswini.kilari\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\tejaswini.kilari\.m2\repository\io\cucumber\cucumber-junit\7.16.1\cucumber-junit-7.16.1.jar;C:\Users\tejaswini.kilari\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.1\jackson-databind-2.17.1.jar;C:\Users\tejaswini.kilari\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.1\jackson-annotations-2.17.1.jar;C:\Users\tejaswini.kilari\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.1\jackson-core-2.17.1.jar;C:\Users\tejaswini.kilari\.m2\repository\org\codehaus\groovy\groovy\3.0.25\groovy-3.0.25.jar;C:\Users\tejaswini.kilari\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\tejaswini.kilari\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\tejaswini.kilari\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\tejaswini.kilari"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-07-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\tejaswini.kilari\workspace\APIFrameWork"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\tejaswini.kilari\AppData\Local\Temp\surefire3191036861355130946\surefirebooter-20250718115907461_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.8+9-LTS-211"/>
+    <property name="user.name" value="tejaswini.kilari"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\tejaswini.kilari\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\TEJASW~1.KIL\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.8"/>
+    <property name="user.dir" value="C:\Users\tejaswini.kilari\workspace\APIFrameWork"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\kafka_2.13-3.7.0\bin;C:\Program Files\PuTTY\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\Users\tejaswini.kilari\AppData\Local\Microsoft\WindowsApps;C:\Users\tejaswini.kilari\Downloads\apache-maven-3.9.11-bin\apache-maven-3.9.11\bin;C:\Users\tejaswini.kilari\AppData\Local\GitHubDesktop\bin;C:\Users\tejaswini.kilari\AppData\Local\Programs\Git\cmd;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.8+9-LTS-211"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Verify authorization is Successfully added using authCode" classname="Validating Authorize APIs" time="3.337">
+    <system-out><![CDATA[/oauth/authorize
+200
+Expected: SUCCESS | Actual: SUCCESS
+Full Response: {"authCode":"5d7ec4a07a363ed7da2a1e7e20f730a9","status":"SUCCESS","errorCode":null,"errorDesc":null,"errorId":0}
+AuthCode : 5d7ec4a07a363ed7da2a1e7e20f730a9
+]]></system-out>
+  </testcase>
+  <testcase name="Verify getToken is successfull using authCode" classname="Validating Authorize APIs" time="0.643">
+    <failure message="expected:&lt;[SUCCESS]&gt; but was:&lt;[FAILURE]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[SUCCESS]> but was:<[FAILURE]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at stepDefinations.StepDefinition.the_in_response_body_is(StepDefinition.java:72)
+	at ✽.The "status" in response body is "SUCCESS"(file:///C:/Users/tejaswini.kilari/workspace/APIFrameWork/src/test/java/features/placeValidations.feature:18)
+]]></failure>
+    <system-out><![CDATA[AuthCode : <authCode>
+/oauth/getToken
+200
+Expected: SUCCESS | Actual: FAILURE
+Full Response: {"expiresIn":0,"accessToken":null,"refreshToken":null,"status":"FAILURE","errorCode":"INVALID_REQUEST","errorDesc":"Request Data Contains Invalid Data/Format","partnerID":null,"errorId":10002}
+]]></system-out>
+  </testcase>
+</testsuite>
