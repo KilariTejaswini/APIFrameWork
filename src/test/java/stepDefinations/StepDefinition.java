@@ -38,7 +38,7 @@ public class StepDefinition extends Utils
  
 	
 	@Given("Add authorize payload with {string} {string}")
-	public void add_authorize_payload_with(String partnerId, String secretCode) throws IOException {
+	public void add_authorize_payload_with(String partnerID, String secretCode) throws IOException {
 		
 		 partnerId = Utils.getGlobalValue("partnerID");
          String secretcode = Utils.getGlobalValue("secretCode");
