@@ -3,7 +3,8 @@ package resources;
 public enum ApiResource 
 {
 	AuthorizeAPI("/oauth/authorize"),
-	GetTokenAPI("/oauth/getToken");
+	GetTokenAPI("/oauth/getToken"),
+	RegisterAPI("/ecr/registration/register");
 	
 	private String resource;
 	

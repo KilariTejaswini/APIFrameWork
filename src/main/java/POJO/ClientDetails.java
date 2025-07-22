@@ -2,14 +2,14 @@ package POJO;
 
 public class ClientDetails
 {
-	private String partnerId;
+	private String partnerID;
 	private String secretCode;
 	
-	public String getPartnerId() {
-		return partnerId;
+	public String getPartnerID() {
+		return partnerID;
 	}
-	public void setPartnerId(String partnerId) {
-		this.partnerId = partnerId;
+	public void setPartnerID(String partnerID) {
+		this.partnerID = partnerID;
 	}
 	public String getSecretCode() {
 		return secretCode;

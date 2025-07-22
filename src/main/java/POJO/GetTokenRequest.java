@@ -4,7 +4,7 @@ public class GetTokenRequest
 {
 	private String authCode;
 	private String grantType;
-	private String partnerId;
+	private ClientDetails clientDetails;
 	
 	public String getAuthCode() {
 		return authCode;
@@ -18,12 +18,14 @@ public class GetTokenRequest
 	public void setGrantType(String grantType) {
 		this.grantType = grantType;
 	}
-	public String getPartnerId() {
-		return partnerId;
+	public ClientDetails getClientDetails() {
+		return clientDetails;
 	}
-	public void setPartnerId(String partnerId) {
-		this.partnerId = partnerId;
+	public void setClientDetails(ClientDetails clientDetails) {
+		this.clientDetails = clientDetails;
 	}
+	
+	
 	
 	
 	
