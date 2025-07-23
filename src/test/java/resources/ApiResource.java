@@ -4,7 +4,8 @@ public enum ApiResource
 {
 	AuthorizeAPI("/oauth/authorize"),
 	GetTokenAPI("/oauth/getToken"),
-	RegisterAPI("/ecr/registration/register");
+	RegisterAPI("/ecr/registration/register"),
+	AuthenticationAPI("/ecr/auth/authenticate");
 	
 	private String resource;
 	

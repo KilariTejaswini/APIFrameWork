@@ -1,0 +1,5 @@
+POJO\GetTokenRequest.class
+POJO\AuthenticationRequest.class
+POJO\ClientDetails.class
+POJO\AuthorizeRequest.class
+POJO\RegisterRequest.class

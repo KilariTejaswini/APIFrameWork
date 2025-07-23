@@ -1,11 +1,13 @@
 -------------------------------------------------------------------------------
 Test set: cucumber.Options.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.691 s <<< FAILURE! -- in cucumber.Options.TestRunner
-Validating Authorize APIs.Verify getToken is successfull using authCode -- Time elapsed: 0.643 s <<< FAILURE!
-org.junit.ComparisonFailure: expected:<[SUCCESS]> but was:<[FAILURE]>
-	at org.junit.Assert.assertEquals(Assert.java:117)
-	at org.junit.Assert.assertEquals(Assert.java:146)
-	at stepDefinations.StepDefinition.the_in_response_body_is(StepDefinition.java:72)
-	at ✽.The "status" in response body is "SUCCESS"(file:///C:/Users/tejaswini.kilari/workspace/APIFrameWork/src/test/java/features/placeValidations.feature:18)
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 9.346 s <<< FAILURE! -- in cucumber.Options.TestRunner
+Validating Authorize APIs.Registration successfull #2 -- Time elapsed: 1.538 s <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<404>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepDefinitions.StepDefinition.the_api_call_got_failure_with_status_code(StepDefinition.java:88)
+	at ✽.The API call got failure with status code 404(file:///C:/Users/tejaswini.kilari/workspace/APIFrameWork/src/test/java/features/placeValidations.feature:26)
 

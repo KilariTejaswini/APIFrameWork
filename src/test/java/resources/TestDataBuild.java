@@ -1,5 +1,6 @@
 package resources;
 
+import POJO.AuthenticationRequest;
 import POJO.AuthorizeRequest;
 import POJO.ClientDetails;
 import POJO.GetTokenRequest;
@@ -8,7 +9,8 @@ import io.restassured.response.Response;
 
 public class TestDataBuild
 {
-
+	 static String EmailID;
+	 static String ScreenName;
 	
 	public AuthorizeRequest  authorizePayLoad(String partnerId, String secretCode)
 	{
@@ -44,15 +46,19 @@ public class TestDataBuild
 		}
 		
 		
-		/*public RegisterRequest registerPayLoad(String partnerID, String labelId )
+		public RegisterRequest registerPayLoad(String partnerId, String EmailId, String screenName )
 		{
+			
+			ClientDetails clientDetails = new ClientDetails();
+			clientDetails.setPartnerID(partnerId);
+			
 			long timeStamp = System.currentTimeMillis();
-			String EmailID = "psp" + timeStamp + "@malinator.com";
-			String ScreenName = "psp" + timeStamp;
+			  EmailID = "psp" + timeStamp + "@malinator.com";
+			 ScreenName = "psp" + timeStamp;
 			
 			RegisterRequest registerRequest = new RegisterRequest();
-			registerRequest.setPartnerID(partnerID);
-			registerRequest.setLabelID(partnerID);
+			registerRequest.setPartnerID(partnerId);
+			registerRequest.setLabelID(partnerId);
 			registerRequest.setProductID("CASINO");
 			registerRequest.setEmailID(EmailID);
 			registerRequest.setScreenName(ScreenName);
@@ -75,7 +81,31 @@ public class TestDataBuild
 			return registerRequest;
 			
 		}
-		*/
+		
+		public AuthenticationRequest authenticationPayLoad(String partnerId, String screenName)
+		{
+
+			ClientDetails clientDetails = new ClientDetails();
+			clientDetails.setPartnerID(partnerId);
+			
+			AuthenticationRequest authenticationRequest = new AuthenticationRequest();
+			authenticationRequest.setPartnerID(partnerId);
+			authenticationRequest.setLabelID("jokaroom");
+			authenticationRequest.setProductID("CASINO");
+			authenticationRequest.setChannel("desktop");
+			authenticationRequest.setSubChannel("native");
+			authenticationRequest.setOsType("Windows");
+			authenticationRequest.setBrowserType("Chrome");
+			authenticationRequest.setEmailID(EmailID);
+			authenticationRequest.setScreenName(ScreenName);
+			authenticationRequest.setPassword("123123");
+			authenticationRequest.setMacAddress("0123456789abcdef");
+			authenticationRequest.setIp("46.251.211.52");
+			authenticationRequest.setDeviceID("test");
+			
+			return authenticationRequest;
+			
+		}
 		
 	
 

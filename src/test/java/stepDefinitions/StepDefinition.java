@@ -1,4 +1,4 @@
-package stepDefinations;
+package stepDefinitions;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
@@ -29,11 +29,15 @@ public class StepDefinition extends Utils
 	
 	
 	static RequestSpecification authReq;
-	static Response response ;
+	static Response response ; 
     static String authCode;
 	static RequestSpecification tokenReq;
 	static String accessToken;
 	static String partnerId; 
+	static String EmailID;
+	static String ScreenName;
+	static RequestSpecification reqRegister;
+	static RequestSpecification reqAuthentication;
 	
  
 	
@@ -44,6 +48,7 @@ public class StepDefinition extends Utils
          String secretcode = Utils.getGlobalValue("secretCode");
 		 authReq = given().spec(requestSpecification()).body(data.authorizePayLoad(partnerId, secretcode));
 	}
+
 
 	@When("User calls {string} with {string} http request")
 	public void user_calls_with_http_request(String resource, String method) throws IOException {
@@ -59,6 +64,14 @@ public class StepDefinition extends Utils
 	    {
 	        response = tokenReq.when().post(resourceApi.getResource());
 	    }
+	    else if (resource.equals("RegisterAPI"))
+	    {
+	    	response = reqRegister.when().post(resourceApi.getResource());
+	    }
+	    else if (resource.equals("AuthenticationAPI"))
+	    {
+	    	response =  reqAuthentication.when().post(resourceApi.getResource());
+	    }
 	    
 	}
 
@@ -68,6 +81,14 @@ public class StepDefinition extends Utils
 		assertEquals(response.getStatusCode(), 200);
 	    
 	}
+	
+	@Then("The API call got failure with status code {int}")
+	public void the_api_call_got_failure_with_status_code(Integer int1) {
+	   
+		assertEquals(response.getStatusCode(), 404);
+		
+	}
+	
 
 	@Then("The {string} in response body is {string}")
 	public void the_in_response_body_is(String keyValue, String expectedValue) {
@@ -100,6 +121,26 @@ public class StepDefinition extends Utils
 		accessToken = getJsonPath(response,"accessToken");
 		System.out.println("accessToken : " + accessToken);
 	}
+	
+	
+	@Given("Add register payload")
+	public void add_register_payload() {
+		
+		long timeStamp = System.currentTimeMillis();
+		 EmailID = "psp" + timeStamp + "@malinator.com";
+		 ScreenName = "psp" + timeStamp;
+		
+		 
+		 reqRegister = given().spec(req).headers("accessToken",accessToken).body(data.registerPayLoad(partnerId,EmailID,ScreenName));
+	}
+	
+	
+	@Given("Add authentication payload")
+	public void add_authentication_payload() {
+	    
+	  reqAuthentication = given().spec(req).headers("accessToken",accessToken).body(data.authenticationPayLoad(partnerId, ScreenName));
+	}
+
 	
 	
 	    	
