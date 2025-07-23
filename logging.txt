@@ -18,20 +18,20 @@ Body:
     }
 }
 HTTP/1.1 200 OK
-Date: Wed, 23 Jul 2025 05:15:13 GMT
+Date: Wed, 23 Jul 2025 05:29:04 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
 Cf-Cache-Status: DYNAMIC
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=NHI9cj9%2Blt5xoKKrxHW3%2BP1ReKcCdAQN5Hcr8p4iErBNw22apciaz07HDdjn8WgHnqpqa%2BItjWG9b4G5PVl11Ed4mhd8x%2Ffb6OGp0V%2FRyQQ0JN%2BTK3WqIcPFPhQ1h4M%3D"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=i%2B%2BEWSZIa5sONUdzCZN7LM4z7uvWlNQ9DUicG0q11QNNKZWpIBAyb4wU87DVSwZTCXuieUYqoJyvq5kewTRofHF6FxVSmgd3wjsF2LAC2SzMrD6jUvrQ2hCmFGRUbdM%3D"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: 9638b2e2cf1d0115-MRS
+CF-RAY: 9638c72c8abc0115-MRS
 alt-svc: h3=":443"; ma=86400
 
 {
-    "authCode": "bd0db818822b71c60fea18b2a4615ae0",
+    "authCode": "dcdb1399ed13acdbdba4f7ccaa548849",
     "status": "SUCCESS",
     "errorCode": null,
     "errorDesc": null,
@@ -50,7 +50,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "authCode": "bd0db818822b71c60fea18b2a4615ae0",
+    "authCode": "dcdb1399ed13acdbdba4f7ccaa548849",
     "grantType": "CLIENT_CREDENTIALS",
     "clientDetails": {
         "partnerID": "jokaroom",
@@ -58,22 +58,22 @@ Body:
     }
 }
 HTTP/1.1 200 OK
-Date: Wed, 23 Jul 2025 05:15:15 GMT
+Date: Wed, 23 Jul 2025 05:29:06 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
 Cf-Cache-Status: DYNAMIC
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=8olcHK7evx3J%2BzVSklxU62r%2Bgu4JgK1MRokvD%2FEZ3VUJimQvBtT4v6wXITgMl4nf7keiULexdypoA6LwgtSMospfvtp4fpy9Hc8Uq93%2FzT1dj6lfe7S9mdw5gDV6AN4%3D"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=LLFlj0298%2BfcZRuQGbEKeqU65X8JKESDhbcFLGL9qCqvWoo4r2yx7gPi1ZtFVtU6Zcd7F1jWzHyyd5%2BLq4k51DlXeEWqqCKsxJrlP9H9vuIAwS8MYnhW3B3yPfmiA7Y%3D"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: 9638b2e9de1ee1bc-MRS
+CF-RAY: 9638c734493a419d-LHR
 alt-svc: h3=":443"; ma=86400
 
 {
     "expiresIn": 86400,
-    "accessToken": "5f00e1a13e4f7cd31338f36beb1ed1f2",
-    "refreshToken": "3e9707c167698ea3307d6c5859a5a95a",
+    "accessToken": "beab713e986e25c26f378498745310a2",
+    "refreshToken": "cf6d00d600578149177a4f540008f429",
     "status": "SUCCESS",
     "errorCode": null,
     "errorDesc": null,
@@ -87,7 +87,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		accessToken=5f00e1a13e4f7cd31338f36beb1ed1f2
+Headers:		accessToken=beab713e986e25c26f378498745310a2
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -97,8 +97,8 @@ Body:
     "partnerID": "jokaroom",
     "labelID": "jokaroom",
     "productID": "CASINO",
-    "emailID": "psp1753247715172@malinator.com",
-    "screenName": "psp1753247715172",
+    "emailID": "psp1753248546182@malinator.com",
+    "screenName": "psp1753248546182",
     "password": "123123",
     "channel": "web",
     "subChannel": "native",
@@ -116,16 +116,16 @@ Body:
     "countryCode": "FI"
 }
 HTTP/1.1 200 OK
-Date: Wed, 23 Jul 2025 05:15:16 GMT
+Date: Wed, 23 Jul 2025 05:29:07 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
 Cf-Cache-Status: DYNAMIC
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=oJmc1FQB7C0NIfFa3lUnj77vy9Y52a7h0mvH2jZJQ2gE9MPdgka%2FPZPso5doifKbsjnegZ%2FDIuYkO%2Fxuh9qgauKhXPNfSlydgEeqbCi%2BYF1WLstscWtjtyQi%2BKss1w4%3D"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=VOK6CAGlvhRSdnRD4%2BTWaamn1l1OdVtY%2BxkG4ngyyA%2BwpDqSH31h02mLrBX%2F6TIK7m6u2OMsbUsueD5Q2nLz6u2H2JFqDA6xKv8GgAQFX8WDbH3mHwBnxXjywhCvjN8%3D"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: 9638b2ee3c7193ef-LHR
+CF-RAY: 9638c7381e4697c2-LHR
 alt-svc: h3=":443"; ma=86400
 
 {
@@ -133,7 +133,7 @@ alt-svc: h3=":443"; ma=86400
     "errorCode": null,
     "errorId": 0,
     "errorDescription": null,
-    "ecrExternalID": "165261753247715",
+    "ecrExternalID": "624681753248546",
     "jurisdictionResponse": null
 }
 Request method:	POST
@@ -143,7 +143,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		accessToken=5f00e1a13e4f7cd31338f36beb1ed1f2
+Headers:		accessToken=beab713e986e25c26f378498745310a2
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -153,8 +153,8 @@ Body:
     "partnerID": "jokaroom",
     "labelID": "jokaroom",
     "productID": "CASINO",
-    "emailID": "psp1753247716792@malinator.com",
-    "screenName": "psp1753247716792",
+    "emailID": "psp1753248547701@malinator.com",
+    "screenName": "psp1753248547701",
     "password": "123123",
     "channel": "web",
     "subChannel": "native",
@@ -172,16 +172,16 @@ Body:
     "countryCode": "FI"
 }
 HTTP/1.1 200 OK
-Date: Wed, 23 Jul 2025 05:15:18 GMT
+Date: Wed, 23 Jul 2025 05:29:09 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
 Cf-Cache-Status: DYNAMIC
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=%2BPRZ7j8Hkf1WdoDfZx1waBk8ghbRWYKQ351wMHVKmcozji84d8jgKz71gRsf71am4eSpahXggsacj5tYywUp6wrXn%2FMV4OwzBoGGxkjNDFM2U%2FlElNMh0%2F2MQ5FU"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=qWUs1e82ceBka17u%2FbVAU5Dati6c%2BwJYadg%2FEBs7IlOIY7mdJSbvZay47DVaXtcODzKc7Th4KnWRWqI3lTgbKH6Cn8oBWkCu51n5SAYB4lZd8JBh5j0Owy6D4hOHW68%3D"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: 9638b2f85e2ced0e-LHR
+CF-RAY: 9638c7447bbb93f5-LHR
 alt-svc: h3=":443"; ma=86400
 
 {
@@ -189,7 +189,7 @@ alt-svc: h3=":443"; ma=86400
     "errorCode": null,
     "errorId": 0,
     "errorDescription": null,
-    "ecrExternalID": "565901753247717",
+    "ecrExternalID": "222561753248548",
     "jurisdictionResponse": null
 }
 Request method:	POST
@@ -199,7 +199,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		accessToken=5f00e1a13e4f7cd31338f36beb1ed1f2
+Headers:		accessToken=beab713e986e25c26f378498745310a2
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -213,24 +213,24 @@ Body:
     "subChannel": "native",
     "osType": "Windows",
     "browserType": "Chrome",
-    "emailID": "psp1753247716792@malinator.com",
-    "screenName": "psp1753247716792",
+    "emailID": "psp1753248547701@malinator.com",
+    "screenName": "psp1753248547701",
     "password": "123123",
     "macAddress": "0123456789abcdef",
     "ip": "46.251.211.52",
     "deviceID": "test"
 }
 HTTP/1.1 200 OK
-Date: Wed, 23 Jul 2025 05:15:19 GMT
+Date: Wed, 23 Jul 2025 05:29:10 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
 Cf-Cache-Status: DYNAMIC
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=484Tm8drYKEF0%2Ft%2FHeWVa0ipiAXmCE2UHi%2Fv1yJmTInWiq1Uuzooiqu0KKTekMVp%2Bj4FSF9mbNIf2c1yyStKnWmPvkLNpcD%2FQNeu5oLuMHvToRF4gpGPR8dMpM9VF%2BY%3D"}]}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=%2BKM8AlUngsCYnqXdX5yEWrmBBAX1UAik5uCZGmqUfzdggOvkayTuWcm2vPNQ1ZEzC%2F23BmBIx1mmnLuM6EjwVEFJr65QP8ySubScfxpridYz%2FuRlfRvKZWIG5u%2FDIVo%3D"}]}
 Content-Encoding: gzip
 Server: cloudflare
-CF-RAY: 9638b301faa2d16c-LHR
+CF-RAY: 9638c74d3a7de288-MRS
 alt-svc: h3=":443"; ma=86400
 
 {
@@ -238,9 +238,9 @@ alt-svc: h3=":443"; ma=86400
     "errorCode": null,
     "errorId": 0,
     "errorDescription": null,
-    "emailID": "psp1753247716792@malinator.com",
-    "ecrExternalId": "565901753247717",
-    "sessionId": "9f9920ae-f3f3-4600-9f0d-b4d4693d14b6_SESSIONKEY",
+    "emailID": "psp1753248547701@malinator.com",
+    "ecrExternalId": "222561753248548",
+    "sessionId": "916a6cf8-76a4-41c1-a763-2da6e385162a_SESSIONKEY",
     "affiliateId": "",
     "ecrCategory": "play_user",
     "ecrStatus": "play",
@@ -253,7 +253,7 @@ alt-svc: h3=":443"; ma=86400
     "mobileVerificationStatus": "NOT_INTIATED",
     "forceChangePassword": false,
     "language": "fr-BE",
-    "lastAuthTime": "1753240517",
+    "lastAuthTime": "1753241348",
     "bannerId": "1",
     "jurisdiction": "curacao",
     "affiliateName": "",

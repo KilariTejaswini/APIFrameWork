@@ -20,7 +20,7 @@ Scenario: Registration successfull
       Then The API call got success with status code 200
       And The "status" in response body is "SUCCESS"
       
-Scenario: Registration successfull
+Scenario: Registration Unsuccessfull
       Given Add register payload
       When User calls "RegisterAPI" with "POST" http request
       Then The API call got failure with status code 404
